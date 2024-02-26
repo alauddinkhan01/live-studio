@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="js/script.js" defer></script>
+    <title>Live Studio</title>
+  </head>
+  <body>
+    <section id="herooo">
+      <div class=" w-full mx-auto px-6 py-12">
+        <nav class="flex justify-between items-center">
+          <!-- logo -->
+          <div class="flex items-center space-x-3 text-white font-bold tracking-widest font-PlusJakarta">
+            <img src="./logo/logo.webp" class="w-16" alt="">
+            <p class="text-2xl font-kode">LIVE STUDIO</p>
+          </div>
+          <!-- menu -->
+          <div class="hidden font-kode md:flex md:space-x-4 text-white">
+            <div class="group">
+              <div class="mx-2 group-hover:border-b group-hover:border-white transi delay-400 cursor-pointer">
+                Home
+              </div>
+            </div>
+            <div class="group">
+              <div class="mx-2 group-hover:border-b group-hover:border-white transi delay-400 cursor-pointer">
+                Gallary
+              </div>
+            </div>
+            <div class="group">
+              <div class="mx-2 group-hover:border-b group-hover:border-white transi delay-400 cursor-pointer">
+                Contact Us
+              </div>
+            </div>
+            <div class="group">
+              <div class="mx-2 group-hover:border-b group-hover:border-white transi delay-400 cursor-pointer">
+                About Us
+              </div>
+            </div>
+          </div>
+          <!-- humburger menu -->
+          <div class="md:hidden">
+            <button id="menu-btn" class="z-40 hamburger focus:outline-none">
+              <span class="hamburger-top"></span>
+              <span class="hamburger-middle"></span>
+              <span class="hamburger-bottom"></span>
+            </button>
+          </div>
+        </nav>
+        <div id="mobile-menu" class="bg-black bg-opacity-95 absolute top-0 bottom-0 left-0 w-full min-h-screen text-white mx-auto md:hidden hidden items-center flex-col pt-40 font-kode space-y-3 uppercase text-lg ">
+          <div class="group">
+            <a href="" class="mobile-menu-item">Home</a>
+          </div>
+          <div class="group">
+            <a href="" class="mobile-menu-item">Gallary</a>
+          </div>
+          <div class="group">
+            <a href="" class="mobile-menu-item">About Us</a>
+          </div>
+          <div class="group">
+            <a href="" class="mobile-menu-item">Contact Us</a>
+          </div>
+        </div>
+        <div class="mt-20 mb-20 border rounded-lg  border-pink-400 text-pink-500 uppercase text-4xl md:text-6xl max-w-md p-4 font-kode">
+          Impressive experiences deliver
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Section -->
+    <section id="feature">
+      <div class="w-full mx-auto container mb-5 mt-5 p-6">
+        <div class="relative flex flex-col md:flex-row">
+          <img src="logo/menWithHeadphone.jpg"  class="w-full md:w-[600px]" alt="">
+          <div class="md:absolute bg-white md:mt-[130px] md:right-0 max-w-lg md:shadow-xl md:pl-20 text-start font-kode py-3">
+            <div class=" uppercase text-2xl text-center md:text-left md:text-4xl">
+              The leader in interactive vr
+            </div>
+            <div class="font-kode">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum tempore similique numquam voluptas animi suscipit culpa harum, ea quos ipsum, laudantium mollitia porro temporibus dolor amet vel adipisci nobis? Tempora! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis vel labore tenetur ut quibusdam? Odio doloribus tempore, est
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- creation section -->
+    <section id="creationSection">
+      <div class="container w-full mx-auto my-32 text-gray-900">
+        <div class="flex justify-center md:justify-between uppercase">
+          <h1 class="text-center text-4xl font-kode">Our creation</h1>
+          <button class="hidden btn md:block">See all</button>
+        </div>
+        <!-- cards -->
+        <div class="flex flex-col md:flex-row  md:flex-wrap gap-2 justify-center w-full py-7 p-2">
+          <div class="group relative w-full  md:w-1/4 max-h-[140px] overflow-hidden">
+            <img src="logo/headphone.webp" class=" w-full group-hover:scale-110 transition duration-300" alt="">
+            <p class="text-xl font-kode absolute  duration-300 px-3 text-white group-hover:text-pink-500 group-hover:scale-110 bottom-4 uppercase group-hover:font-bold">Alan Walker</p>
+            <div class="item-gradient group-hover:bg-from-gray-50 group-hover:to-pink-400"></div>
+          </div>
+          <div class="group relative w-full  md:w-1/4  max-h-[140px] overflow-hidden">
+            <img src="logo/car.jpg" class=" w-full group-hover:scale-110 transition duration-300" alt="">
+            <p class="text-xl font-kode absolute  duration-300 px-3 text-white group-hover:text-pink-500 group-hover:scale-110 bottom-4 uppercase group-hover:font-bold">Sports Car</p>
+            <div class="item-gradient group-hover:bg-from-gray-50 group-hover:to-pink-400"></div>
+          </div>
+          <div class="group relative  w-full  md:w-1/4  max-h-[140px] overflow-hidden">
+            <img src="logo/menWithHeadphone.jpg" class=" w-full group-hover:scale-110 transition duration-300" alt="">
+            <p class="text-xl font-kode absolute  duration-300 px-3 text-white group-hover:text-pink-500 group-hover:scale-110 bottom-4 uppercase group-hover:font-bold">At office</p>
+            <div class="item-gradient group-hover:bg-from-gray-50 group-hover:to-pink-400"></div>
+          </div>
+          <div class="group relative w-full  md:w-1/4 max-h-[140px] overflow-hidden">
+            <img src="logo/girlWithHeadphone.jpg" class=" w-full group-hover:scale-110 transition duration-300" alt="">
+            <p class="text-xl font-kode absolute  duration-300 px-3 text-white group-hover:text-pink-500 group-hover:scale-110 bottom-4 uppercase group-hover:font-bold">At meeting</p>
+            <div class="item-gradient group-hover:bg-from-gray-50 group-hover:to-pink-400"></div>
+          </div>
+          <div class="group relative  w-full  md:w-1/4  max-h-[140px] overflow-hidden">
+            <img src="logo/goat.jpeg" class=" w-full group-hover:scale-110 transition duration-300" alt="">
+            <p class="text-xl font-kode absolute  duration-300 px-3 text-white group-hover:text-pink-500 group-hover:scale-110 bottom-4 uppercase group-hover:font-bold">Jungle Goat</p>
+            <div class="item-gradient group-hover:bg-from-gray-50 group-hover:to-pink-400"></div>
+          </div>
+          <div class="group relative w-full  md:w-1/4 max-h-[140px] overflow-hidden">
+            <img src="logo/professor.jpg" class=" w-full group-hover:scale-110 transition duration-300" alt="">
+            <p class="text-xl font-kode absolute  duration-300 px-3 text-white group-hover:text-pink-500 group-hover:scale-110 bottom-4 uppercase group-hover:font-bold">Mr, Professor</p>
+            <div class="item-gradient group-hover:bg-from-gray-50 group-hover:to-pink-400"></div>
+          </div>
+          <div class="group relative w-full  md:w-1/4 max-h-[140px] overflow-hidden">
+            <img src="logo/alanwalker.jpg" class=" w-full group-hover:scale-110 transition duration-300" alt="">
+            <p class="text-xl font-kode absolute  duration-300 px-3 text-white group-hover:text-pink-500 group-hover:scale-110 bottom-4 uppercase group-hover:font-bold">At meeting</p>
+            <div class="item-gradient group-hover:bg-from-gray-50 group-hover:to-pink-400"></div>
+          </div>
+          <div class="group relative  w-full  md:w-1/4  max-h-[140px] overflow-hidden">
+            <img src="logo/github.png" class=" w-full group-hover:scale-110 transition duration-300" alt="">
+            <p class="text-xl font-kode absolute  duration-300 px-3 text-white group-hover:text-pink-500 group-hover:scale-110 bottom-4 uppercase group-hover:font-bold">Jungle Goat</p>
+            <div class="item-gradient group-hover:bg-from-gray-50 group-hover:to-pink-400"></div>
+          </div>
+          <div class="group relative w-full  md:w-1/4 max-h-[140px] overflow-hidden">
+            <img src="logo/c.webp" class=" w-full group-hover:scale-110 transition duration-300" alt="">
+            <p class="text-xl font-kode absolute  duration-300 px-3 text-white group-hover:text-pink-500 group-hover:scale-110 bottom-4 uppercase group-hover:font-bold">Mr, Professor</p>
+            <div class="item-gradient group-hover:bg-from-gray-50 group-hover:to-pink-400"></div>
+          </div>
+        </div>
+        <div class="container w-full mx-auto md:hidden">
+          <button class="btn w-full">See all</button>
+        </div>
+      </div>
+    </section>
+    <!-- footer section -->
+    <footer class="bg-black">
+      <div class="container w-full mx-auto p-12">
+        <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 justify-between items-center">
+          <div class="flex flex-col">
+            <div class="flex items-center space-x-3 text-white font-bold tracking-widest font-PlusJakarta">
+              <img src="./logo/logo.webp" class="w-16" alt="">
+              <p class="text-2xl font-kode">LIVE STUDIO</p>
+            </div>
+            <div class="flex flex-col items-center md:flex-row space-y-4 md:space-y-0 space-x-4 mt-4">
+              <div class="group text-white">
+                <div class="font-kode group-hover:border-b-2">
+                  Home
+                </div>
+              </div>
+              <div class="group text-white">
+                <div class="font-kode group-hover:border-b-2">
+                  Gallary
+                </div>
+              </div>
+              <div class="group text-white">
+                <div class="font-kode group-hover:border-b-2">
+                  About Us
+                </div>
+              </div>
+              <div class="group text-white">
+                <div class="font-kode group-hover:border-b-2">
+                  Contact Us
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- social content -->
+          <div class="flex-col flex items-center">
+            <div class="flex flex-row space-x-4 items-center md:mx-0">
+              <img src="logo/facebook.png" class="w-8" alt="">
+              <img src="logo/ibm.png" class="w-8" alt="">
+              <img src="logo/google.png" class="w-16" alt="">
+            </div>
+            <div class="text-slate-400 font-kode mt-4 text-xs">
+              &copy;2024 Live Studio. All Rights Reserved
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+    </footer>
+  </body>
+</html>
